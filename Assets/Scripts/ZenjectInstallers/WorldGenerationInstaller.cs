@@ -7,9 +7,9 @@ namespace PirateIsland.ZenjectInstallers
 {
     public class WorldGenerationInstaller : MonoInstaller
     {
-        [SerializeField] private InterfaceComponent<ITileWorld> _tileWorldComponent;
-        [SerializeField] private InterfaceComponent<IHeightMapFactory> _heightMapFactory;
-        [SerializeField] private InterfaceScrptableObject<ITilesInfoProvider> _tilesInfoProvider;
+        [SerializeField] private InterfaceObject<ITileWorld, Object> _tileWorldComponent;
+        [SerializeField] private InterfaceObject<IHeightMapFactory, Object> _heightMapFactory;
+        [SerializeField] private InterfaceObject<ITilesInfoProvider, Object> _tilesInfoProvider;
 
         public override void InstallBindings()
         {

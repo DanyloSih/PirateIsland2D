@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef953b9dda03cc748a3b22d0e207f94b, type: 3}
+  m_Name: WorldResourcesProvider
+  m_EditorClassIdentifier: 
+  _resources:
+  - _info:
+      _minDistanceToOtherResource: 1
+      _spawnChance: 0.2
+      _rotationRange: {x: 0, y: 0}
+      _offsetRange: {x: 0, y: 0}
+      _heightRange: {x: 0.41, y: 1}
+    _gameObject: {fileID: 3563320396857226746, guid: 8c0a34b989933604185abe9d22935d13, type: 3}
+  - _info:
+      _minDistanceToOtherResource: 2
+      _spawnChance: 0.1
+      _rotationRange: {x: 0, y: 360}
+      _offsetRange: {x: 0.25, y: 0.25}
+      _heightRange: {x: 0.5, y: 1}
+    _gameObject: {fileID: 6366347090581948637, guid: a8456e1dda459d6439bfc1f24ad91afc, type: 3}
+  - _info:
+      _minDistanceToOtherResource: 1
+      _spawnChance: 0.00375
+      _rotationRange: {x: 0, y: 360}
+      _offsetRange: {x: 0.25, y: 0.25}
+      _heightRange: {x: 0.4, y: 1}
+    _gameObject: {fileID: 1005035801572719203, guid: 1ea59b8e1ee97b94f9e0cef9a2f81b5e, type: 3}
+  - _info:
+      _minDistanceToOtherResource: 1
+      _spawnChance: 0.00375
+      _rotationRange: {x: 0, y: 360}
+      _offsetRange: {x: 0.25, y: 0.25}
+      _heightRange: {x: 0.4, y: 1}
+    _gameObject: {fileID: 2593899429329376600, guid: d9d00876fbaa1234291b8291bcbc21e2, type: 3}
+  - _info:
+      _minDistanceToOtherResource: 1
+      _spawnChance: 0.00375
+      _rotationRange: {x: 0, y: 360}
+      _offsetRange: {x: 0.25, y: 0.25}
+      _heightRange: {x: 0.4, y: 1}
+    _gameObject: {fileID: 159003577919048902, guid: be9b5f5af55d6b1418043f4d92280262, type: 3}
+  - _info:
+      _minDistanceToOtherResource: 1
+      _spawnChance: 0.00375
+      _rotationRange: {x: 0, y: 360}
+      _offsetRange: {x: 0.25, y: 0.25}
+      _heightRange: {x: 0.4, y: 1}
+    _gameObject: {fileID: 4402306459372751875, guid: 2d64e610d0784c146877468d67919f83, type: 3}
+  - _info:
+      _minDistanceToOtherResource: 1
+      _spawnChance: 0.015
+      _rotationRange: {x: 0, y: 360}
+      _offsetRange: {x: 0.25, y: 0.25}
+      _heightRange: {x: 0.4, y: 1}
+    _gameObject: {fileID: 2783218799218375961, guid: deaf7e10c65eeb24eaa2017f1906db97, type: 3}
+  - _info:
+      _minDistanceToOtherResource: 1
+      _spawnChance: 0.015
+      _rotationRange: {x: 0, y: 360}
+      _offsetRange: {x: 0.25, y: 0.25}
+      _heightRange: {x: 0.25, y: 0.35}
+    _gameObject: {fileID: 2211928294133384648, guid: b011ce3d797b62743bf19b781415eb96, type: 3}
+  - _info:
+      _minDistanceToOtherResource: 1
+      _spawnChance: 0.015
+      _rotationRange: {x: 0, y: 360}
+      _offsetRange: {x: 0.25, y: 0.25}
+      _heightRange: {x: 0.25, y: 0.35}
+    _gameObject: {fileID: 708878659368758571, guid: fe58c7d0f0b35ea489f7d96908734976, type: 3}
+  - _info:
+      _minDistanceToOtherResource: 1
+      _spawnChance: 0.015
+      _rotationRange: {x: 0, y: 360}
+      _offsetRange: {x: 0.25, y: 0.25}
+      _heightRange: {x: 0.25, y: 0.35}
+    _gameObject: {fileID: 745151092172099037, guid: 3d99d7a2df14c7a46bbdfa4662e89bfb, type: 3}
+  - _info:
+      _minDistanceToOtherResource: 1
+      _spawnChance: 0.015
+      _rotationRange: {x: 0, y: 360}
+      _offsetRange: {x: 0.25, y: 0.25}
+      _heightRange: {x: 0.25, y: 0.35}
+    _gameObject: {fileID: 7056695450565116022, guid: 858e3161a189e20458eb545dc51e2de6, type: 3}
