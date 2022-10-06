@@ -14,19 +14,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _resources:
   - _info:
+      _minDistanceToOtherResource: 2
+      _spawnChance: 1
+      _rotationRange: {x: 0, y: 360}
+      _offsetRange: {x: 0.25, y: 0.25}
+      _heightRange: {x: 0.6, y: 1}
+    _gameObject: {fileID: 6366347090581948637, guid: a8456e1dda459d6439bfc1f24ad91afc, type: 3}
+  - _info:
       _minDistanceToOtherResource: 1
       _spawnChance: 0.2
       _rotationRange: {x: 0, y: 0}
       _offsetRange: {x: 0, y: 0}
       _heightRange: {x: 0.41, y: 1}
     _gameObject: {fileID: 3563320396857226746, guid: 8c0a34b989933604185abe9d22935d13, type: 3}
-  - _info:
-      _minDistanceToOtherResource: 2
-      _spawnChance: 0.1
-      _rotationRange: {x: 0, y: 360}
-      _offsetRange: {x: 0.25, y: 0.25}
-      _heightRange: {x: 0.5, y: 1}
-    _gameObject: {fileID: 6366347090581948637, guid: a8456e1dda459d6439bfc1f24ad91afc, type: 3}
   - _info:
       _minDistanceToOtherResource: 1
       _spawnChance: 0.00375

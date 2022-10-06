@@ -1,0 +1,74 @@
+{
+    "name": "MainControls",
+    "maps": [
+        {
+            "name": "Movement",
+            "id": "c6b8ea3c-11ba-42c5-9c9a-50f26f69574d",
+            "actions": [
+                {
+                    "name": "StartMovement",
+                    "type": "Button",
+                    "id": "f9a2d51f-37ba-43b5-9733-d4c323015767",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "StopMovement",
+                    "type": "Button",
+                    "id": "111122bd-5029-44f7-b645-740d0761c4f8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press(behavior=1)",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Pointer",
+                    "type": "Value",
+                    "id": "e5db68dc-bf61-41c7-9cf6-fb1e354c2c3b",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "6f6ef518-c730-482c-adc2-faae14bb02d7",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "StartMovement",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d70af781-5d33-4517-86a9-2275c526c006",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "StopMovement",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cef3f4e6-166d-450e-98f7-4310805bcefb",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pointer",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
